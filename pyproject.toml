@@ -12,6 +12,10 @@ quart = "^0.18.4"
 quart-cors = "^0.6.0"
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
