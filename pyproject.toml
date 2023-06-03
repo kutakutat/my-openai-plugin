@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-openai-plugin"
+version = "0.1.0"
+description = "a demo implementation of the OpenAI Plugin"
+authors = ["kutakutat <18190905+kutakutat@users.noreply.github.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+quart = "^0.18.4"
+quart-cors = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
